@@ -2,7 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto Serif', serif;
 }
 
 body{
@@ -130,11 +130,11 @@ body{
 }
 
 .product-detail{
-    width: 60%;
+    width: 70%;
 }
 
 .product-name{
-    font-size: 7vw;
+    font-size: 6vw;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-family: 'Sirin Stencil', cursive;
@@ -145,7 +145,7 @@ body{
 .product-des{
 margin: 4vw 0;
 width: 90%;
-font-size: 1.5vw;
+font-size: 1.2vw;
 color: rgba(0, 0, 0, 0.5);
 }
 
@@ -192,7 +192,6 @@ color: rgba(0, 0, 0, 0.5);
     left: -100;
     width: 100%;
     height: 100%;
-    
     animation: slide-left 1s linear 1;
 } 
 

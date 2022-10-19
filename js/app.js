@@ -3,19 +3,19 @@ const productData = [
     index: '01',
     name: 'yellow tracksuit',
     image: 'img1.jpg',
-    des: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, ipsam! Perspiciatis, doloribus sint. Facere, sed?'
+    des: ' Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, ipsam! Perspiciatis, doloribus sint. Facere, sed?'
     },
     {
     index: '02',
     name: 'designer outfit',
     image: 'img2.jpg',
-    des: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, ipsam! Perspiciatis, doloribus sint. Facere, sed?'
+    des: ' Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, ipsam! Perspiciatis, doloribus sint. Facere, sed?'
     },
     {
     index: '03',
     name: 'chilling mood',
     image: 'img3.jpg',
-    des: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, ipsam! Perspiciatis, doloribus sint. Facere, sed?'
+    des: ' Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, ipsam! Perspiciatis, doloribus sint. Facere, sed?'
     }
 ]
 
@@ -50,19 +50,22 @@ backdropImg.classList.add('fade')
 productDetail.classList.add('fade')
 
 setTimeout(() => {
+    
     productName.innerHTML = productData[currentProduct].name
     productDes.innerHTML = productData[currentProduct].des
     smImg.src = productImg.src = backdropImg.src = 
     `
-        img/${productData[currentProduct].image}
+    img/${productData[currentProduct].image}
     `
-}, 100)
+}, 500)
 
 setTimeout(() => {
+
     smImgContainer.classList.remove('slide')
     productImgContainer.classList.remove('slide')
     backdropImg.classList.remove('fade')
     productDetail.classList.remove('fade')
-}, 500)
+
+}, 2000)
 
 })
